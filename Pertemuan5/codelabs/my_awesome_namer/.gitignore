@@ -1,0 +1,19 @@
+# Flutter & Dart
+build/
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+
+# Android
+android/.gradle/
+android/app/build/
+
+# iOS
+ios/Pods/
+
+# Logs
+*.log
+
+# Misc
+*.lock
