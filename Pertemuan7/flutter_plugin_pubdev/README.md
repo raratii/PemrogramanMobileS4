@@ -20,8 +20,6 @@ Selesaikan langkah-langkah praktikum berikut ini menggunakan editor Visual Studi
 
 Buatlah sebuah project flutter baru dengan nama `flutter_plugin_pubdev`. Lalu jadikan repository di GitHub Anda dengan nama `flutter_plugin_pubdev`.
 
-![Buat Project Baru](image/image.png)
-
 ### Langkah 2: Menambahkan Plugin
 
 Tambahkan plugin `auto_size_text` menggunakan perintah berikut di terminal:
@@ -31,8 +29,6 @@ flutter pub add auto_size_text
 ```
 
 Jika berhasil, maka akan tampil nama plugin beserta versinya di file `pubspec.yaml` pada bagian `dependencies`.
-
-![Menambahkan Plugin](image/image1.png)
 
 ### Langkah 3: Buat file `red_text_widget.dart`
 
@@ -51,8 +47,6 @@ class RedTextWidget extends StatelessWidget {
 }
 ```
 
-![Buat Widget](image/image2.png)
-
 ### Langkah 4: Tambah Widget AutoSizeText
 
 Masih di file `red_text_widget.dart`, untuk menggunakan plugin `auto_size_text`, ubahlah kode `return Container()` menjadi seperti berikut.
@@ -66,7 +60,7 @@ return AutoSizeText(
 );
 ```
 
-![Tambah Widget](image/image3.png)
+![Tambah Widget](img/error.jpeg)
 
 Setelah Anda menambahkan kode di atas, Anda akan mendapatkan info error. Mengapa demikian? Jelaskan dalam laporan praktikum Anda!
 
@@ -83,8 +77,6 @@ final String text;
 
 const RedTextWidget({Key? key, required this.text}) : super(key: key);
 ```
-
-![Tambah Variabel](image/image4.png)
 
 ### Langkah 6: Tambahkan widget di `main.dart`
 
@@ -107,13 +99,11 @@ Container(
 ),
 ```
 
-![Tambah Widget](image/image5.png)
-
 Run aplikasi tersebut dengan tekan **F5**.
 
 **Hasil:**
 
-![Hasil Run](image/image6.png)
+![Hasil Run](img/hasil.jpeg)
 ---
 
 ## Tugas
