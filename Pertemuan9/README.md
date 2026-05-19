@@ -4,9 +4,9 @@
 
 | Atribut | Nilai                   |
 | ------- | ----------------------- |
-| Nama    | Dimas Adit Thalia Putra |
-| NIM     | 244107060037            |
-| Kelas   | SIB-2E                  |
+| Nama    | Ratih Purnama Dewi      |
+| NIM     | 244107060055            |
+| Kelas   | SIB-2D                  |
 
 ---
 
@@ -19,8 +19,6 @@ Selesaikan langkah-langkah praktikum berikut ini menggunakan editor Visual Studi
 ### Langkah 1: Buat Project Baru
 
 Buatlah sebuah project flutter baru dengan nama **kamera_flutter**, lalu sesuaikan style laporan praktikum yang Anda buat.
-
-![Create Camera Flutter Project](image/image.png)
 
 ### Langkah 2: Tambah dependensi yang diperlukan
 
@@ -36,7 +34,7 @@ Untuk menambahkan dependensi plugin, jalankan perintah `flutter pub add` seperti
 flutter pub add camera path_provider path
 ```
 
-![Add Dependencies](image/image1.png)
+![Add Dependencies](image/l2.jpeg)
 
 > **Tips**
 >
@@ -50,7 +48,7 @@ flutter pub add camera path_provider path
 <string>Explanation on why the microphone access is needed.</string>
 ```
 
-![Update minSdkVersion](image/image2.png)
+![Update minSdkVersion](image/l2.1.jpeg)
 
 ### Langkah 3: Ambil Sensor Kamera dari device
 
@@ -82,7 +80,7 @@ Future<void> main() async {
 
 Pastikan melakukan impor plugin sesuai yang dibutuhkan.
 
-![ambil sensor kamera](image/image3.png)
+![ambil sensor kamera](image/l3.jpeg)
 
 ### Langkah 4: Buat dan inisialisasi `CameraController`
 
@@ -147,8 +145,6 @@ class TakePictureScreenState extends State<TakePictureScreen> {
 
 > **Perhatian:** Jika Anda tidak menginisialisasi `CameraController`, Anda tidak dapat menggunakan kamera untuk menampilkan pratinjau dan mengambil gambar.
 
-![takepicture_screen](image/image4.png)
-
 ### Langkah 5: Gunakan `CameraPreview` untuk menampilkan preview foto
 
 Gunakan widget `CameraPreview` dari package `camera` untuk menampilkan preview foto. Anda perlu tipe objek void berupa `FutureBuilder` untuk menangani proses async.
@@ -180,8 +176,6 @@ Gunakan widget `CameraPreview` dari package `camera` untuk menampilkan preview f
     );
   }
 ```
-
-![takepicture_screen2](image/image5.png)
 
 ### Langkah 6: Ambil foto dengan `CameraController`
 
@@ -222,7 +216,6 @@ Kode berikut letakkan dalam `Widget build` setelah field `body`.
       ),
 ```
 
-![takepicture_screen3](image/image6.png)
 
 ### Langkah 7: Buat widget baru `DisplayPictureScreen`
 
@@ -249,8 +242,6 @@ class DisplayPictureScreen extends StatelessWidget {
 }
 ```
 
-![displaypicture_screen](image/image7.png)
-
 ### Langkah 8: Edit `main.dart`
 
 Edit pada file ini bagian `runApp` seperti kode berikut.
@@ -269,8 +260,6 @@ Edit pada file ini bagian `runApp` seperti kode berikut.
     ),
   );
 ```
-
-![main](image/image8.png)
 
 ### Langkah 9: Menampilkan hasil foto
 
@@ -309,7 +298,7 @@ Tambahkan kode seperti berikut pada bagian `try / catch` agar dapat menampilkan 
 
 Silakan deploy pada device atau smartphone Anda dan perhatikan hasilnya! 🙂
 
-![hasil akhir](image/image9.gif)
+![hasil akhir](image/akhir1.gif)
 
 ---
 
@@ -322,8 +311,6 @@ Selesaikan langkah-langkah praktikum berikut ini.
 ### Langkah 1: Buat project baru
 
 Buatlah project flutter baru di pertemuan 09 dengan nama **photo_filter_carousel**
-
-![photo_filter_carousel1](image/image10.png)
 
 ### Langkah 2: Buat widget Selector ring dan dark gradient
 
@@ -488,8 +475,6 @@ class _FilterSelectorState extends State<FilterSelector> {
 }
 ```
 
-![filter_carousel](image/image11.png)
-
 ### Langkah 3: Buat widget photo filter carousel
 
 Buat file baru di folder widget dengan kode seperti berikut.
@@ -565,8 +550,6 @@ class _PhotoFilterCarouselState extends State<PhotoFilterCarousel> {
 }
 ```
 
-![filter_carousel](image/image12.png)
-
 ### Langkah 4: Membuat filter warna - bagian 1
 
 Buat file baru di folder widget seperti kode berikut.
@@ -638,8 +621,6 @@ class CarouselFlowDelegate extends FlowDelegate {
 }
 ```
 
-![filter_carousel](image/image13.png)
-
 ### Langkah 5: Membuat filter warna
 
 Buat file baru di folder widget seperti kode berikut ini.
@@ -681,7 +662,6 @@ class FilterItem extends StatelessWidget {
 }
 ```
 
-![filter_carousel](image/image14.png)
 
 ### Langkah 6: Implementasi filter carousel
 
@@ -700,8 +680,6 @@ void main() {
 }
 ```
 
-![filter_carousel](image/image15.png)
-
 ### Troubleshoot
 
 Jika diperlukan, beberapa widget yang telah Anda buat sebelumnya, memerlukan kode import berikut ini.
@@ -713,7 +691,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart' show ViewportOffset;
 ```
 
-![Hasil](image/image16.gif)
+![Hasil](image/akhir2.gif)
 
 ## 5. Tugas Praktikum
 
