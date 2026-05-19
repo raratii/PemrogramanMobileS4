@@ -34,7 +34,7 @@ Untuk menambahkan dependensi plugin, jalankan perintah `flutter pub add` seperti
 flutter pub add camera path_provider path
 ```
 
-![Add Dependencies](image/l2.jpeg)
+![Add Dependencies](img/l2.jpeg)
 
 > **Tips**
 >
@@ -48,7 +48,7 @@ flutter pub add camera path_provider path
 <string>Explanation on why the microphone access is needed.</string>
 ```
 
-![Update minSdkVersion](image/l2.1.jpeg)
+![Update minSdkVersion](img/l2.1.jpeg)
 
 ### Langkah 3: Ambil Sensor Kamera dari device
 
@@ -80,7 +80,7 @@ Future<void> main() async {
 
 Pastikan melakukan impor plugin sesuai yang dibutuhkan.
 
-![ambil sensor kamera](image/l3.jpeg)
+![ambil sensor kamera](img/l3.jpeg)
 
 ### Langkah 4: Buat dan inisialisasi `CameraController`
 
@@ -298,7 +298,7 @@ Tambahkan kode seperti berikut pada bagian `try / catch` agar dapat menampilkan 
 
 Silakan deploy pada device atau smartphone Anda dan perhatikan hasilnya! 🙂
 
-![hasil akhir](image/akhir1.gif)
+![hasil akhir](img/akhir1.MP4)
 
 ---
 
@@ -691,7 +691,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart' show ViewportOffset;
 ```
 
-![Hasil](image/akhir2.gif)
+![Hasil](img/akhir2.MP4)
 
 ## 5. Tugas Praktikum
 
