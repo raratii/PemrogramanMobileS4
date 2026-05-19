@@ -21,8 +21,7 @@ class FilterItem extends StatelessWidget {
           padding: const EdgeInsets.all(8),
           child: ClipOval(
             child: Image.network(
-              'https://docs.flutter.dev/cookbook/img-files'
-              '/effects/instagram-buttons/millennial-texture.jpg',
+              'https://picsum.photos/200',
               color: color.withOpacity(0.5),
               colorBlendMode: BlendMode.hardLight,
             ),
